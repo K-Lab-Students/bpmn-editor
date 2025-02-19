@@ -1,0 +1,27 @@
+{
+    "name": "Development container",
+    "build": {
+      "context": "..",
+      "dockerfile": "../Dockerfile"
+    },
+  
+    // "features": {},
+  
+    // "forwardPorts": [],
+  
+    // "postCreateCommand": "...",
+  
+    "customizations": {
+      "vscode": {
+              "settings": {
+                "terminal.integrated.shell.*": "/bin/bash"
+              },
+        "extensions": [
+
+        ]
+      }
+    }
+  
+    // "remoteUser": "user"
+  }
+  

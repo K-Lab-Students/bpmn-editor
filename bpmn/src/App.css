@@ -1,0 +1,20 @@
+body,
+html {
+  width: 100%;
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100vh;
+}
+
+.App-header {
+  height: 100%;
+}
+

@@ -1,0 +1,17 @@
+services:
+  bpmn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./bpmn:/app
+    ports:
+      - 3000:3000
+    command:
+      - bash
+      - -c
+      - |
+        cd app
+        npm install
+        npm start 
+        npm install bpmn-js
