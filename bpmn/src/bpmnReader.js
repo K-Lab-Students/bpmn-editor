@@ -15,7 +15,7 @@ function Reader(props) {
 
     return (
         <div>
-            <input type='file' id='file' ref={inputFile} />
+            <input type='file' accept=".bpmn" id='file' ref={inputFile} />
             <button onClick={onButtonClick}>Load</button>
         </div>
     );
